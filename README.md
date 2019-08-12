@@ -15,5 +15,4 @@ To learn the traffic as an image, the average speed of each link is projected in
 First, the road network is segmented by grids with a size of 0.0001° × 0.0001° (latitude and longitude), which guarantees that the two links on a road with opposite directions can be separated into different grids in the studied area.   
 Subsequently, the value of each grid is determined on the basis of the speed of links using the following criteria: if no link passes through the grid area, then the value is zero; if only one link passes through the grid area, then the value is the speed of this link; if multiple links pass through the same grid area, then we assign their average speed to the grid.
 ![gridding process](https://github.com/Zhong-HY/CapsNet-NLSTM-ITS/blob/master/Schematic%20of%20the%20gridding%20process.png)
-# Acknowledgements
- The implementation of CapsNet heavily derived from [Github.com/XifengGuo/CapsNet-Keras](Github.com/XifengGuo/CapsNet-Keras)
+
